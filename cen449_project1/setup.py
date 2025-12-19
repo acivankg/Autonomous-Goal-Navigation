@@ -29,7 +29,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'goal_pose_client = cen449_project1.smart_goal_pose_v1.6:main',
+            'goal_pose_client = cen449_project1.smart_goal_pose_vf:main',
         ],
     },
 )
