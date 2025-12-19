@@ -22,15 +22,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Muhammed Furkan Çoban',
-    maintainer_email='furkancobaan1@gmail.com',
+    maintainer='Ajdar Civan Kırmızıgül',
+    maintainer_email='acivankg@gmail.com',
     description='CEN449 Project 1 - TurtleBot3 navigation without pre-saved map',
     license='Proprietary',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            # goal_pose_v10 içindeki main()
-            'goal_pose_client = cen449_project1.goal_pose_v10:main',
+            'goal_pose_client = cen449_project1.smart_goal_pose_v1.6:main',
         ],
     },
 )
